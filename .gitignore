@@ -1,0 +1,49 @@
+# ==========================================
+# SupplyChainX Global Ignore
+# ==========================================
+
+# --- Environment & Secrets (CRITICAL) ---
+.env
+.env.local
+.env.production
+*.env
+
+# --- Python / Backend ---
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/supplychainx.db
+iot-gateway/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Node.js / Frontend & Contracts ---
+node_modules/
+frontend/node_modules/
+contracts/node_modules/
+frontend/.next/
+contracts/artifacts/
+contracts/cache/
+contracts/types/
+
+# --- Database Files (SQLite) ---
+*.db
+*.sqlite
+*.sqlite3
+supplychainx.db
+backend/supplychainx.db
+
+# --- OS & Editor Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Temporary / Working Files ---
+# Uncomment the line below if you don't want to commit your working notebook
+# SupplyChainX-Copy1.ipynb 

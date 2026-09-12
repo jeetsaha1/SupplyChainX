@@ -1,0 +1,1 @@
+"""SupplyChainX backend application package."""
